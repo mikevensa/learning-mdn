@@ -32,6 +32,10 @@ address {
 }
 
 /* Added CSS */
-ul li {
+.senderContact li {
     list-style-type: none;
+}
+
+.date {
+    text-align: right;
 }
