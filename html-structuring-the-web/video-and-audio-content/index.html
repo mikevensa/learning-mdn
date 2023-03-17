@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Video and Audio</title>
+</head>
+<body>
+  
+<!-- Instructions:
+
+1. Save your audio and video files in a new directory on your computer.
+2. Create a new HTML file in the same directory, called index.html.
+3. Add <audio> and <video> elements to the page; make them display the default browser controls.
+4. Give both of them <source> elements so that browsers will find the audio format they support best and load it. These should include type attributes.
+5. Give the <video> element a poster that will be displayed before the video starts to be played. Have fun creating your own poster graphic.-->
+
+
+<h1>Animals</h1>
+
+<h2>Rabbits</h2>
+
+<!-- video of a rabbit -->
+<video controls autoplay loop poster="imgs/poster.png">
+  <source src="videos/rabbit320.mp4" type="video/mp4"/>
+  <source src="videos/html_multimedia-and-embedding_video-and-audio-content_rabbit320.webm" type="video/webm"/>
+  <p>
+    Your browser doesn't support this video. Here is a <a href="videos/rabbit320.mp4">link to the video</a> instead.
+  </p>
+</video>
+
+<h2>Vipers</h2>
+
+<audio controls>
+  <source src="audio/html_multimedia-and-embedding_video-and-audio-content_viper.mp3" type="audio/mp3"/>
+  <source src="audio/html_multimedia-and-embedding_video-and-audio-content_viper.ogg" type="audio/ogg"/>
+</audio>
+
+
+</body>
+</html>
