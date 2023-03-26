@@ -1,0 +1,44 @@
+/* Create your test CSS here */
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+p {
+  color: black;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+nav li {
+  display: inline;
+  padding: 0 10px;
+}
+
+nav {
+  text-align: center;
+}
+
+nav a:hover {
+  font-weight: bold;
+}
+
+section {
+  text-align: center;
+  margin: 5rem auto;
+  width: 50%;
+}
+
+footer {
+  background-color: black;
+}
+
+footer p {
+  color: white;
+  padding: 3rem;
+}
