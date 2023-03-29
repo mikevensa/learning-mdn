@@ -1,0 +1,55 @@
+.box {
+  border: 5px solid rebeccapurple;
+  background-color: lightgray;
+  padding: 40px;
+  margin: 40px;
+  width: 300px;
+  height: 150px;
+}
+
+.alternate {
+  box-sizing: border-box;
+  width: 390px;
+  height: 220px;
+}
+
+.box-two {
+  border: dotted 5px black;
+  margin: 20px 1em 40px 2em;
+  padding: 1em;
+  width: 500px;
+}
+
+.box-three span {
+  background-color: pink;
+  border: 5px solid black;
+  padding: 1em;
+  display: inline-block;
+
+}
+
+.box-three {
+  width: 500px;
+}
+
+/* css just to make the page look nicer */
+
+h1 {
+  border-bottom: solid 3px orange;
+  padding: 40px 40px 10px 0px;
+  margin-left: 40px;
+  width: 600px;
+}
+
+h2 {
+  margin-left: 40px;
+  font-weight: 300;
+}
+
+h2+p {
+  font-style: italic;
+}
+
+p {
+  margin-left: 40px
+}
