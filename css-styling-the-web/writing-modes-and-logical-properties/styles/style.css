@@ -1,0 +1,53 @@
+.boxOne {
+  border: 5px solid rebeccapurple;
+  background-color: lightgray;
+  padding: 40px;
+  margin: 40px;
+  writing-mode: vertical-lr;
+}
+
+.boxTwo {
+  border: 5px solid rebeccapurple;
+  background-color: lightgray;
+  padding: 40px;
+  margin: 40px;
+  inline-size: 200px;
+  block-size: 100px;
+}
+
+.vertical {
+  writing-mode: vertical-rl;
+}
+
+.boxThree {
+  inline-size: 150px;
+  block-size: 150px;
+  border-block-start: 5px solid rebeccapurple;
+  border-inline-end: 5px solid grey;
+  border-block-end: 5px dotted red;
+  border-inline-start: 5px dotted blue;
+  padding-top: 40px;
+  margin-block-end: 30px;
+}
+
+/* css just to make the page look nicer */
+
+h1 {
+  border-bottom: solid 3px rgb(0, 0, 255);
+  padding: 40px 40px 10px 0px;
+  margin-left: 40px;
+  width: 600px;
+}
+
+.task-head {
+  margin-left: 40px;
+  font-weight: 300;
+}
+
+.task-head+p {
+  font-style: italic;
+}
+
+p {
+  margin-left: 40px
+}
