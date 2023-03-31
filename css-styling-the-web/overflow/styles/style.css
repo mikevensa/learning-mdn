@@ -1,0 +1,43 @@
+.boxOne {
+  border: 5px solid black;
+  padding: 1em;
+  height: 200px;
+  width: 300px;
+  overflow: auto;
+
+}
+
+.boxTwo {
+  border: 5px solid black;
+  height: 200px;
+  width: 300px;
+  overflow: hidden;
+}
+
+
+
+/* css just to make the page look nicer */
+
+h1 {
+  border-bottom: solid 3px rgb(0, 0, 255);
+  padding: 40px 40px 10px 0px;
+  margin-left: 40px;
+  width: 600px;
+}
+
+.task-head {
+  margin-left: 40px;
+  font-weight: 300;
+}
+
+.task-head+p {
+  font-style: italic;
+}
+
+.task-description {
+  margin-left: 40px
+}
+
+div {
+  margin-left: 40px;
+}
