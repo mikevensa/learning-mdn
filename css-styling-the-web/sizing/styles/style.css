@@ -1,0 +1,72 @@
+/* Task One */
+.box1-one {
+    min-height:100px;
+ 
+}
+
+.box2-one {
+    height: 100px;
+
+}
+
+.box-one{
+    width: 20%;
+    border: solid 1px black;
+    margin-top: 10px;
+}
+
+/* Task Two */
+.box-two {
+    box-sizing: border-box;
+    width: 50%;
+    border: solid 1px black;
+  }
+  .inner {
+    background-color: purple;
+    border-radius: 20px;
+    color: white;
+    margin-left:0px;
+    width: 60%;
+    padding: 10%;
+  }
+
+/* Task Three */
+
+.box-three{
+    border: 5px solid #000;
+    width: 400px;
+    margin-bottom: 1em;
+}
+
+img {
+    max-width: 100%;
+     
+    }
+
+    
+
+/* css just to make the page look nicer */
+
+h1 {
+    border-bottom: solid 3px purple;
+    padding: 40px 40px 10px 0px;
+    margin-left: 40px;
+    width: 600px;
+}
+  
+.task-head {
+    margin-left: 40px;
+    font-weight: 300;
+}
+  
+.task-head+p {
+    font-style: italic;
+}
+  
+.task-description {
+    margin-left: 40px
+}
+  
+div {
+    margin-left: 40px;
+}
