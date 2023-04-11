@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styling Tables</title>
+    <link rel="stylesheet" href="styles/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- INSERT TASKS LINK HERE -->
+
+    <!-- Page Header -->
+    <header>
+        <h1 class="task-title">TASK TITLE</h1>
+    </header>
+    <main>
+
+        <div class="task">
+            <!-- Task 1 -->
+            <h2 class="task-head">Task 1</h2>
+
+            <!-- Task 1 Description -->
+            <p class="task-description">
+                Style a table, but using some good practices for table design as outlined in the external article <a
+                    href="https://alistapart.com/article/web-typography-tables/" target="_blank"
+                    title="link to web typography">Web Typography: designing tables to be read not looked at</a>.
+
+            </p>
+
+            <!-- Insert task 1 below -->
+            <table>
+                <caption>A summary of the UK's most famous punk bands</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Band</th>
+                        <th scope="col">Year formed</th>
+                        <th scope="col">No. of Albums</th>
+                        <th scope="col">Most famous song</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Buzzcocks</th>
+                        <td>1976</td>
+                        <td>9</td>
+                        <td>Ever fallen in love (with someone you shouldn't've)</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">The Clash</th>
+                        <td>1976</td>
+                        <td>6</td>
+                        <td>London Calling</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">The Damned</th>
+                        <td>1976</td>
+                        <td>10</td>
+                        <td>Smash it up</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Sex Pistols</th>
+                        <td>1975</td>
+                        <td>1</td>
+                        <td>Anarchy in the UK</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Sham 69</th>
+                        <td>1976</td>
+                        <td>13</td>
+                        <td>If the kids are united</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Siouxsie and the Banshees</th>
+                        <td>1976</td>
+                        <td>11</td>
+                        <td>Hong Kong Garden</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Stiff Little Fingers</th>
+                        <td>1977</td>
+                        <td>10</td>
+                        <td>Suspect Device</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">The Stranglers</th>
+                        <td>1974</td>
+                        <td>17</td>
+                        <td>No More Heroes</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th scope="row" colspan="2">Total albums</th>
+                        <td colspan="2">77</td>
+                    </tr>
+                </tfoot>
+            </table>
+
+
+        </div>
+
+
+    </main>
+
+</body>
+
+</html>
