@@ -1,8 +1,30 @@
+/* Added CSS */
+
+main{
+    /* Added multiple backgrounds */
+    background: url(../imgs/top-image.png) no-repeat top/contain;
+
+    background: linear-gradient(180deg, rgba(0,0,0,0.19233630952380953) 0%, rgba(0,0,0,0) 24%, rgba(0,0,0,0) 82%, rgba(0,0,0,0.15312062324929976) 100%) no-repeat center/cover,
+    url(../imgs/top-image.png) no-repeat top/contain,
+    url(../imgs/bottom-image.png) no-repeat bottom/contain;
+
+    /* added a white background */
+    background-color: white;
+
+    /* background-image: linear-gradient(180deg, rgba(0,0,0,0.19233630952380953) 0%, rgba(0,0,0,0) 24%, rgba(0,0,0,0) 82%, rgba(0,0,0,0.15312062324929976) 100%), 
+    url(../imgs/top-image.png),
+    url(../imgs/bottom-image.png);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: center, top, bottom;
+    background-size: cover, contain, contain; */
+}
+
+
+
 /* Provided CSS */
 * {
     box-sizing: border-box;
   }
-  
   
   body {
     margin: 0;
