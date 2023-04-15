@@ -17,9 +17,29 @@ main{
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position: center, top, bottom;
     background-size: cover, contain, contain; */
+
+    /* added border to letter */
+    border: solid 1px black;
 }
 
+h1{
+    /* added background image */
+    background: url(../imgs/logo.png) no-repeat center;
 
+    /* added a drop shadow via filter function
+    filter: drop-shadow(3px 3px 4px rgb(41, 0, 0)); */
+
+    /* added drop shadow via the box-shadow property */
+    background-color: #721313;
+    box-shadow: 3px 3px 4px rgb(41, 0, 0);
+    /* added a radius to match the shape of the background image */
+    border-radius: 150px;
+}
+
+section{
+    position: absolute;
+    top: 250px;
+}
 
 /* Provided CSS */
 * {
@@ -110,10 +130,10 @@ body{
      * `article` contexts in Chrome, Firefox, and Safari.
      */
     
-    h1 {
+    /* h1 {
       font-size: 2em;
       margin: 0.67em 0;
-    }
+    } */
     
     /* Grouping content
        ========================================================================== */
