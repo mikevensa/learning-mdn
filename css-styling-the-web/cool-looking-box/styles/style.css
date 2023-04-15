@@ -12,6 +12,7 @@
  html {
     line-height: 1.15; /* 1 */
     -webkit-text-size-adjust: 100%; /* 2 */
+    font-size: 16px;
   }
   
   /* Sections
@@ -381,7 +382,7 @@ main{
 
 /* task css */
 
-.task{
+.box{
   /* properties for baseline style of the box */
   margin-top: 100px;
   display: flex;
@@ -389,13 +390,29 @@ main{
   align-items: center;
   width: 400px;
   height: 350px;
-  background-color: rgb(255, 123, 0);
   margin: auto;
   margin-top: 100px;
 
+  /* border properties */
+  border-radius: 20px;
+  border: solid 1px rgb(3, 48, 131);
+
   /* properties to create dimension */
+  background: linear-gradient(145deg, rgba(0,0,0,0) 38%, rgba(0,0,0,0.1951374299719888) 100%);
+
+  /* box shadows*/
+  box-shadow: inset -3px -3px 10px black, 
+  inset 3px 3px 20px white,
+  10px 10px 25px -10px black;
+
+  /* fallback background color */
+  background-color: rgb(255, 123, 0);
 }
 
-.task p{
+.box p{
   text-align: center;
+  /* made the font size 32px using rems based on the html element font size being 16px */
+  font-size: 2rem;
+  color: blue;
+  text-shadow: 1px 1px 1px black;
 }
