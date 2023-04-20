@@ -104,5 +104,47 @@ Give the first paragraph after each heading in the <section> a little bit of tex
 }
 
 
+/* Links */
 
+/* Give the link, visited, focus, and hover states some colors that go with the color of the horizontal bars at the top and bottom of the page. */
+
+a {
+  outline: none;
+}
+
+a:link {
+  /* default link color */
+  color: rgb(2, 60, 187);
+}
+
+a:visited {
+  /* visited color */
+  color: purple;
+}
+
+a:focus {
+  text-decoration: none;
+  background: #8a2727;
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+  font-weight: 800;
+}
+
+a:active {
+  text-decoration: none;
+  background: #8a2727;
+  color: white;
+}
+
+/* Make it so that external links have the external link icon inserted next to them. */
+
+a[href^="http"] {
+  background: url("../imgs/external-link-52.png")
+  no-repeat 100% 50%;
+  background-size: 13px 13px;
+  padding-right: 19px;
+}
 
