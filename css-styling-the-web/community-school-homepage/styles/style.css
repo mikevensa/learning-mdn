@@ -148,3 +148,14 @@ a[href^="http"] {
   padding-right: 19px;
 }
 
+/* /* Make sure the spacing of your lists and list items works well with the styling of the overall page. Each list item should have the same line-height as a paragraph line, and each list should have the same spacing at its top and bottom as you have between paragraphs. */
+
+p li{
+  line-height: 1.5;
+}
+
+/* Give your list items a nice bullet appropriate for the design of the page. It is up to you whether you choose a custom bullet image or something else. */
+
+ul{
+  list-style: square;
+}
